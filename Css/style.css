@@ -1,6 +1,7 @@
 :root {
   --primary-dull-Black: #0e0c0c;
   --primary-white: #ffffff;
+  --primary-color: #019991;
 }
 
 * {
@@ -35,18 +36,18 @@ a {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0rem 0.3rem 0rem 0.3rem;
+  margin: 0rem 0.1rem 0rem 0.1rem;
   height: 10vh;
-  box-shadow: 1px 1px 1px 2px var(--primary-dull-Black);
+  box-shadow: 3px 1px 2px 1.5px var(--primary-dull-Black);
 }
 
 .nav-center h1 {
-  color: rgb(1, 153, 145);
+  color: var(--primary-color);
   font-size: 1.4rem;
 }
 
-.active{
-  text-decoration: underline;
+.active {
+  color: var(--primary-color);
 }
 .nav-center ul li {
   display: inline;
